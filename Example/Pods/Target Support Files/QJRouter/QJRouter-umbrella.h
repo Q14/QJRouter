@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "GMRouter+gm.h"
+#import "GMRouter.h"
+#import "Target_commons.h"
+#import "UIViewController+Router.h"
 
 FOUNDATION_EXPORT double QJRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char QJRouterVersionString[];
