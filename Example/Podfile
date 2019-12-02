@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QJRouter_Example' do
+  pod 'QJRouter', :path => '../'
+
+  target 'QJRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
