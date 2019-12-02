@@ -1,0 +1,22 @@
+{
+  "name": "QJRouter",
+  "version": "0.1.0",
+  "summary": "A short description of QJRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jz/QJRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jz": "qiaojinzhu@igengmei.com"
+  },
+  "source": {
+    "git": "https://github.com/jz/QJRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QJRouter/Classes/**/*"
+}

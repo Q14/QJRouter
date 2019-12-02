@@ -1,0 +1,6 @@
+framework module QJRouter {
+  umbrella header "QJRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

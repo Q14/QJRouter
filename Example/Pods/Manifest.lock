@@ -1,0 +1,16 @@
+PODS:
+  - QJRouter (0.1.0)
+
+DEPENDENCIES:
+  - QJRouter (from `../`)
+
+EXTERNAL SOURCES:
+  QJRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QJRouter: 4f7d17c4c1385e97cf47345cd23ccd05a26bfe5f
+
+PODFILE CHECKSUM: 0438c2ea30f43a58648a1ca8964850eb2ccc2868
+
+COCOAPODS: 1.7.4
