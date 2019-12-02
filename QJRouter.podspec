@@ -9,8 +9,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QJRouter'
-  s.version          = '0.0.4'
-  s.summary          = 'A short description of QJRouter. 组件库的创建'
+  s.version          = '0.0.5'
+  s.summary          = '组件库的创建'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
