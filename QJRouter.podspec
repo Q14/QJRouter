@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QJRouter'
   s.version          = '0.0.4'
-  s.summary          = 'A short description of QJRouter.'
+  s.summary          = 'A short description of QJRouter. 组件库的创建'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jz' => 'qiaojinzhu@igengmei.com' }
-  s.source           = { :git => 'git@github.com:Q14/QJRouter.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Q14/QJRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
