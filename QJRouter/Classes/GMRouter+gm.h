@@ -41,18 +41,19 @@ void removeSelectorToMediator(NSString *clsName);
 
 
 @interface GMRouter (gm)
+
 /**
- * 通过vc类的名字创建vc,默认的vc创建函数为createVC:
- *
- * @param actionName vc类名称
- *
- * @param params 创建vc初始化要传递的参数
- *
- * @param shouldCacheTarget 是否需要缓存target，一般传NO
- *
- * @return vc的实例
- *
- */
+* 通过vc类的名字创建vc,默认的vc创建函数为createVC:
+*
+* @param actionName vc类名称
+*
+* @param params 创建vc初始化要传递的参数
+*
+* @param shouldCacheTarget 是否需要缓存target，一般传NO
+*
+* @return vc的实例
+*
+*/
 - (id)performAction:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget;
 
 /**
@@ -73,6 +74,37 @@ void removeSelectorToMediator(NSString *clsName);
 - (id)performAction:(NSString *)actionName dstSel:(NSString *)dstSelName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget;
 
 
+
+
+/**
+* 通过vc类的名字创建vc 兼容项目中的更美协议
+*
+* @param urlScheme 协议名字 * 例如gengmei://welfare_special?service_id=5930&is_new_special=0
+*
+*
+*
+* @return vc的实例
+*
+*/
+- (id)pushScheme:(NSString *)urlScheme;
+
+
+
+/**
+ * 通过vc类的名字创建vc
+ *
+ * @param urlScheme vc类名称
+ * 例如gengmei://welfare_special
+
+ * @param dstSelName vc中实现的创建vc的函数，不要在这个方法中使用self关键字，获取当前类名则
+ *
+ * @param params 创建vc初始化要传递的参数
+ * {@"service_id": @"5930",@"is_new_special": @0} 
+ *
+ * @return vc的实例
+ *
+ */
+- (id)pushScheme:(NSString *)urlScheme dstSel:(NSString *)dstSelName params:(NSDictionary *)params ;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,6 +7,7 @@
 
 #import "UIViewController+Router.h"
 #import "GMRouter+gm.h"
+#import <MJExtension/MJExtension.h>
 
 @implementation UIViewController (Router)
 - (id)createVC:(NSDictionary *)dict{
@@ -16,7 +17,7 @@
         
         UIViewController *doc = self;
         doc = [[class alloc]init];
-//        doc = [doc mj_setKeyValues:dict];
+        doc = [doc mj_setKeyValues:dict];
         return doc;
     }
     return nil;

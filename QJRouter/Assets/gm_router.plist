@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>module_A</key>
+	<dict>
+		<key>sel</key>
+		<string>pushToModuleA</string>
+		<key>target</key>
+		<string>A</string>
+	</dict>
+	<key>module_B</key>
+	<dict>
+		<key>sel</key>
+		<string>pushToModuleB</string>
+		<key>target</key>
+		<string>B</string>
+	</dict>
+</dict>
+</plist>

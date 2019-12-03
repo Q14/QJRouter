@@ -78,7 +78,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
     }
 
     // generate action
-    NSString *actionString = [NSString stringWithFormat:@"Action_%@:", actionName];
+    NSString *actionString = [NSString stringWithFormat:@"%@:", actionName];
     SEL action = NSSelectorFromString(actionString);
     
     if (target == nil) {
