@@ -73,9 +73,6 @@ void removeSelectorToMediator(NSString *clsName);
  */
 - (id)performAction:(NSString *)actionName dstSel:(NSString *)dstSelName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget;
 
-
-
-
 /**
 * 通过vc类的名字创建vc 兼容项目中的更美协议
 *
@@ -87,8 +84,6 @@ void removeSelectorToMediator(NSString *clsName);
 *
 */
 - (id)pushScheme:(NSString *)urlScheme;
-
-
 
 /**
  * 通过vc类的名字创建vc

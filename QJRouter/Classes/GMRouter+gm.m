@@ -64,21 +64,15 @@ static NSMutableDictionary *routeMap = nil;
     }
     
     id action = [self performTarget:GMRouterTargetCommons action:actionName params:params shouldCacheTarget:shouldCacheTarget];
-    
     if (![action isKindOfClass:class]) {
         
         Class class = NSClassFromString(@"ErrorViewController");
         UIViewController *vc = [[class alloc] init];
         return vc;
     }else {
-        
         return [action isKindOfClass:class] ? action : nil;
     }
 }
-
-
-
-
 
 - (id)pushScheme:(NSString *)urlScheme {
     NSString *encodeUrlScheme = [self URLDecodedString:urlScheme];
@@ -86,7 +80,6 @@ static NSMutableDictionary *routeMap = nil;
     if (!url) {
 //        debugLog(@"协议出错了!");
     }
-
     NSString *host = url.host;
     NSDictionary *dict = [routeMap objectForKey:host];
     NSString *sel = dict[@"sel"];
@@ -97,72 +90,16 @@ static NSMutableDictionary *routeMap = nil;
 }
 
 - (id)pushScheme:(NSString *)urlScheme params:(NSDictionary *)params {
-    NSDictionary *dict = [routeMap objectForKey:urlScheme];
+    NSString *encodeUrlScheme = [self URLDecodedString:urlScheme];
+    NSURL *url = [NSURL URLWithString:encodeUrlScheme];
+    if (!url) {
+    }
+    NSString *host = url.host;
+    NSDictionary *dict = [routeMap objectForKey:host];
     NSString *sel = dict[@"sel"];
     NSString *targetName = dict[@"target"];
     return [self performTarget:targetName action:sel params:params shouldCacheTarget:NO];
 }
-
-//- (id)performAction:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget{
-//
-//    NSString *selName = @"createVC:";
-//    NSString *sel = [routeMap objectForKey:actionName];
-//    if (verifiedString(sel)) selName = sel;
-//
-//    return [self performAction:actionName dstSel:selName params:params shouldCacheTarget:shouldCacheTarget];
-//}
-
-//- (id)performAction:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget{
-//
-////    NSString *selName = @"createVC:";
-////    NSString *sel = [routeMap objectForKey:actionName];
-////    if (verifiedString(sel)) selName = sel;
-//
-////    return [self performAction:actionName dstSel:selName params:params shouldCacheTarget:shouldCacheTarget];
-//
-//    NSString *selName = @"createVC:";
-//    NSDictionary *dict = [routeMap objectForKey:actionName];
-//    NSString *sel = dict[@"sel"];
-//    NSString *targetName = dict[@"target"];
-//    NSString *vc = dict[@"vc"];
-//    if (verifiedString(sel)) selName = sel;
-//    return [self performTarget:targetName Action:vc dstSel:selName params:params shouldCacheTarget:NO];
-//}
-//
-//- (id)performTarget:(NSString *)target Action:(NSString *)actionName dstSel:(NSString *)dstSelName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget {
-//
-//    Class class = NSClassFromString(actionName);
-//    SEL sel = NSSelectorFromString(dstSelName);
-//    IMP imp = [class instanceMethodForSelector:sel];
-//    if (!imp || imp == _objc_msgForward) {
-//        imp = [class methodForSelector:sel];
-//    }
-//    SEL selector = NSSelectorFromString(enActionFuncName(dstSelName));
-//    Class targetCls;
-//    if (NSClassFromString(target)) {
-//        targetCls = NSClassFromString(target);
-//    } else {
-//        targetCls = NSClassFromString([NSString stringWithFormat:@"%@%@",GMRouterTargetPrefix,GMRouterTargetCommons]);
-//    }
-//    if (!class_respondsToSelector(targetCls, selector)) {
-//        BOOL flag = class_addMethod(targetCls, selector, imp, "@@:@");
-//        if (!flag) {
-//            return nil;
-//        }
-//    }
-//
-//    id action = [self performTarget:target action:dstSelName params:params shouldCacheTarget:shouldCacheTarget];
-//
-//    if (![action isKindOfClass:class]) {
-//
-//        Class class = NSClassFromString(@"ErrorViewController");
-//        UIViewController *vc = [[class alloc] init];
-//        return vc;
-//    } else {
-//        return [action isKindOfClass:class] ? action : nil;
-//    }
-//}
-//
 
 #pragma mark - string to dict
 - (NSDictionary*)urlQueryToDictionary:(NSString *)urlScheme {
