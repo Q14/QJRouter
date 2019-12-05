@@ -1,6 +1,6 @@
 PODS:
   - MJExtension (3.2.1)
-  - QJRouter (0.0.5):
+  - QJRouter (0.0.6):
     - MJExtension
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  QJRouter: 23e0d9c0c25bbdd63af20734f32f4e89741d84a2
+  QJRouter: a7f1e537cfa0b30636f5746293f7343ac16af7ac
 
 PODFILE CHECKSUM: 44752087e273444fbd337ba31f3186abdff35711
 

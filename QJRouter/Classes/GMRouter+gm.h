@@ -95,8 +95,6 @@ void removeSelectorToMediator(NSString *clsName);
  *
  * @param urlScheme vc类名称
  * 例如gengmei://welfare_special
-
- * @param dstSelName vc中实现的创建vc的函数，不要在这个方法中使用self关键字，获取当前类名则
  *
  * @param params 创建vc初始化要传递的参数
  * {@"service_id": @"5930",@"is_new_special": @0} 
@@ -104,7 +102,7 @@ void removeSelectorToMediator(NSString *clsName);
  * @return vc的实例
  *
  */
-- (id)pushScheme:(NSString *)urlScheme dstSel:(NSString *)dstSelName params:(NSDictionary *)params ;
+- (id)pushScheme:(NSString *)urlScheme params:(NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END

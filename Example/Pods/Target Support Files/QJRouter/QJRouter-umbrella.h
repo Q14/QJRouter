@@ -12,6 +12,7 @@
 
 #import "GMRouter+gm.h"
 #import "GMRouter.h"
+#import "NSObject+gmKey.h"
 #import "Target_commons.h"
 #import "UIViewController+Router.h"
 

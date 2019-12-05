@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QJRouter'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = '组件库的创建'
 
 # This description is used to generate tags and improve search results.

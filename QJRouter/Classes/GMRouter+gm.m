@@ -96,7 +96,7 @@ static NSMutableDictionary *routeMap = nil;
     return [self performTarget:targetName action:sel params:params shouldCacheTarget:NO];
 }
 
-- (id)pushScheme:(NSString *)urlScheme dstSel:(NSString *)dstSelName params:(NSDictionary *)params {
+- (id)pushScheme:(NSString *)urlScheme params:(NSDictionary *)params {
     NSDictionary *dict = [routeMap objectForKey:urlScheme];
     NSString *sel = dict[@"sel"];
     NSString *targetName = dict[@"target"];

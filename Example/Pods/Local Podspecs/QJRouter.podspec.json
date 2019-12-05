@@ -1,6 +1,6 @@
 {
   "name": "QJRouter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "组件库的创建",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Q14/QJRouter.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Q14/QJRouter.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
