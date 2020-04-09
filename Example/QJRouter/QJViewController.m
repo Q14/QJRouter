@@ -37,10 +37,16 @@
         cell.textLabel.text = @"点我跳转A模块";
     } else if (indexPath.row == 1) {
         cell.textLabel.text = @"点我跳转B模块";
+    } else {
         cell.textLabel.text = [NSString stringWithFormat:@"aaa-%ld",indexPath.row];
-
     }
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+    } else if (indexPath.row == 1) {
+    } else {
+    }
 }
 
 @end
