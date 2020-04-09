@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Q14/QJRouter.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jz' => 'qiaojinzhu@igengmei.com' }
+  s.author           = { 'Qj' => 'Q98Q99@gmail.com' }
   s.source           = { :git => 'https://github.com/Q14/QJRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C393B9E214DB9289DFDC5EC4D66BF0 /* NSObject+MJClass.m */; };
-		01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9970287FB8A59D6CE66509205219E52C /* MJExtensionConst.m */; };
-		033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFC4AFACD9ACAC3C9F00947646B7F2 /* MJFoundation.m */; };
-		039B65F4AB240FAA358F963F9529E823 /* GMRouter+gm.h in Headers */ = {isa = PBXBuildFile; fileRef = C027FA0AEE3F9BC089C125D23CB2782E /* GMRouter+gm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */; };
+		01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */; };
+		033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */; };
+		039B65F4AB240FAA358F963F9529E823 /* GMRouter+gm.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DD3E1FC2C796BB5D8A69CE3C0AE33C /* GMRouter+gm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04FE57B4AA3F354485E7336A5B5B7D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04AC621D1A86F2AC40200FFAD16DBAA /* Foundation.framework */; };
-		05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A47CD1E58E6134E1BE14A48CF6D849 /* MJExtension-dummy.m */; };
-		07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E782F8259378AD0DBF815F97964885 /* NSObject+MJProperty.m */; };
-		0FAB93A0FB9C91BB09B23E0894080CDA /* Target_commons.m in Sources */ = {isa = PBXBuildFile; fileRef = 50433601B3AAFEF04D9194829A17761D /* Target_commons.m */; };
-		25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 265191AF18ABA408F7AEAC2C6D7DD57B /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */; };
+		07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */; };
+		0FAB93A0FB9C91BB09B23E0894080CDA /* Target_commons.m in Sources */ = {isa = PBXBuildFile; fileRef = F258E76651B18C4D95892700D7FCF414 /* Target_commons.m */; };
+		25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		366665BF9BA5E0A20776DA57FA9F409D /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABEF07C065DAA1093F386E0864101B0 /* MJExtension.framework */; };
-		3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFC8B09F9FEE9C01B6AC97758F30CF /* MJProperty.m */; };
+		3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */; };
 		3E2CE96D72AAD1BB5DD488164D26945A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04AC621D1A86F2AC40200FFAD16DBAA /* Foundation.framework */; };
-		41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DDF0C319CDAACEB3E84130FD4CE911 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41CA0EB3BB2D54EFB16AA5F8F3227EBA /* Pods-QJRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D900A33CC7CA3B7AE2CD4D19F3C4335 /* Pods-QJRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4876380162EDDBFDE791326525BD6DB2 /* QJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F140D86D46625DFA19EC5DA52FF4085 /* QJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48DB3225857DB77D88AEA401ABCA18FA /* gm_router.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF8D560C369F71A2802C167BED495E0 /* gm_router.plist */; };
-		51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D8512A56DCE8FDA31BB1A013D8D389 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4876380162EDDBFDE791326525BD6DB2 /* QJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA17825C8D884A9127DF0071BB105B2 /* QJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DB3225857DB77D88AEA401ABCA18FA /* gm_router.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5201356C7E519CB818F2871BF911BF3 /* gm_router.plist */; };
+		51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DAC8E344B2F3DEF5F350182F6E77A6A /* Pods-QJRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE0C8708DD0A0492CB17BFD00DE77 /* Pods-QJRouter_Tests-dummy.m */; };
-		6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA31624F5336DD08F70A4C8F06D756E /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE02E7D2A4B3EF44B4BC31D93EAF80 /* MJPropertyKey.m */; };
-		7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9522F6F7E1E6A959DBFE548F7A5F5756 /* NSObject+MJCoding.m */; };
-		7E20C0AE5D7FD8150539C1182A008D87 /* GMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2EBBA338301982D61D2948AB9D742 /* GMRouter.m */; };
-		8071FE2E39ADDB521538AF1C0F432674 /* NSObject+gmKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE10CF034A2AD16390EA40D2141E313 /* NSObject+gmKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		899B086C433A15F6B33A104ECB48D566 /* UIViewController+Router.h in Headers */ = {isa = PBXBuildFile; fileRef = EABACF79F47B01A3ADE1E5C62B303574 /* UIViewController+Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA71C2F02E2C8122DA187D3B07A3EC4 /* MJPropertyType.m */; };
+		6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */; };
+		7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */; };
+		7E20C0AE5D7FD8150539C1182A008D87 /* GMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B9F18B855655B71003000F01603B8F /* GMRouter.m */; };
+		8071FE2E39ADDB521538AF1C0F432674 /* NSObject+gmKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B08B8B47F5D55EE470F1A1B9547E5D4 /* NSObject+gmKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899B086C433A15F6B33A104ECB48D566 /* UIViewController+Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE7A5D90B65F309B194D1F21683AF4F /* UIViewController+Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439ED235893B1765356769F00419D69 /* MJPropertyType.m */; };
 		8FC29E832DDAB80383225B6835060BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04AC621D1A86F2AC40200FFAD16DBAA /* Foundation.framework */; };
-		9045291D6D34D34F283262AC4E83EEE3 /* GMRouter+gm.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E97BADCD94A5C18A8C64C09A22FD92 /* GMRouter+gm.m */; };
-		912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 23077A4E0B13FB264EC009F2BFE320F0 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9045291D6D34D34F283262AC4E83EEE3 /* GMRouter+gm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB534003D75CD9948A7E4EE0F463E6 /* GMRouter+gm.m */; };
+		912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9728EA88EC2AFE5C049D43075B55E1F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04AC621D1A86F2AC40200FFAD16DBAA /* Foundation.framework */; };
-		9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 05023A0B1898974DA5A7AB5B4E829619 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5BC3441D59A15FDCB85329B9C0627A /* NSObject+MJKeyValue.m */; };
-		9BEB512EA6F56EB4B5C9F579C3E71104 /* UIViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B4DEC231F343CFAD0113EFAC65BF8 /* UIViewController+Router.m */; };
+		9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */; };
+		9BEB512EA6F56EB4B5C9F579C3E71104 /* UIViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9063FE899E07252F5117A1FCA4F9CE /* UIViewController+Router.m */; };
 		A2F61C095C44DF303A8A1284F6FFE1B5 /* Pods-QJRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 983C6562E2783A7D62629BC5DD485EFB /* Pods-QJRouter_Example-dummy.m */; };
-		A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = FB16CB4E95C7E7CA54B8BFD76D6C8BD5 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC702220CF2792CC822B1252C34554E4 /* QJRouter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE9609E4EABD808F0A17BA04199EC2E6 /* QJRouter.bundle */; };
-		B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = A7666F58E72D21414F1583523F1C8B57 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDCF5D9F4BF93C2094A22C7E36928391 /* Target_commons.h in Headers */ = {isa = PBXBuildFile; fileRef = 6585072A722592B3A760F44B3EE1EAA5 /* Target_commons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D16CA9A56E4FB7F2F2814981B63B7029 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9EDC50F8E9CCFF70470B456E03E5C05 /* GMRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = F520C2458C20F488C770CB2E2B29CEF9 /* GMRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEBA70958F3E94E8D543C846C797059 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E03BF4642B338C672346FD7CD58E9CBC /* QJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5691BDF1A606FEA0AB9423C56BB074 /* QJRouter-dummy.m */; };
-		E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AA3B72E288A985348053635E8928CD /* NSString+MJExtension.m */; };
+		B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDCF5D9F4BF93C2094A22C7E36928391 /* Target_commons.h in Headers */ = {isa = PBXBuildFile; fileRef = 401FD74EB49F956D8BB5A89D2ADE75E7 /* Target_commons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EDC50F8E9CCFF70470B456E03E5C05 /* GMRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = DE97AA52F6939BADB17878CCF2CC9E17 /* GMRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E03BF4642B338C672346FD7CD58E9CBC /* QJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6204F451192C7AE379E37BD8AEA59 /* QJRouter-dummy.m */; };
+		E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */; };
 		F074C60B38278CDD5F934C9EB95F1E4D /* Pods-QJRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4494781E5A9A93790D7E55AAA4CED1CE /* Pods-QJRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB759E373C7D4DBAF91077141CA3CD3 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F46CC0C691951DE320AC16AB42E5BF45 /* NSObject+gmKey.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32CCED44A8C62F01F92A067B9651FF /* NSObject+gmKey.m */; };
-		FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E619AA937826CB4BD6272654B693F79 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F46CC0C691951DE320AC16AB42E5BF45 /* NSObject+gmKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FF78A7E647C2F99592E508F5E8944416 /* NSObject+gmKey.m */; };
+		FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,79 +94,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0282F6B57578F509AB21A267736170B1 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
 		029353A4A1792F8CD4DD0C2906C9F687 /* Pods_QJRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QJRouter_Tests.framework; path = "Pods-QJRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05023A0B1898974DA5A7AB5B4E829619 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
-		08ED83B2B8716E030B733A76D46D0974 /* QJRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QJRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0EF8D560C369F71A2802C167BED495E0 /* gm_router.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = gm_router.plist; path = QJRouter/Assets/gm_router.plist; sourceTree = "<group>"; };
-		1271D9F0DEA44B93CF4695CE5D35D942 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		08C4FB19CFEC79C87C9501CE09C19E6D /* QJRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QJRouter.debug.xcconfig; sourceTree = "<group>"; };
+		0DA17825C8D884A9127DF0071BB105B2 /* QJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QJRouter-umbrella.h"; sourceTree = "<group>"; };
+		0E67A0EC7B72781A59D0FBE0917681DF /* QJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QJRouter-Info.plist"; sourceTree = "<group>"; };
+		15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		1AB0C6095C875FE5A068A03E9318252A /* Pods-QJRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QJRouter_Example.modulemap"; sourceTree = "<group>"; };
-		1EBFC8B09F9FEE9C01B6AC97758F30CF /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		23077A4E0B13FB264EC009F2BFE320F0 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
-		23B9FDCF5126591C8EDA191B43A567E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		265191AF18ABA408F7AEAC2C6D7DD57B /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		28E782F8259378AD0DBF815F97964885 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		207BDFC2579C5F6B43BDF6049B53DEC3 /* ResourceBundle-QJRouter-QJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QJRouter-QJRouter-Info.plist"; sourceTree = "<group>"; };
+		2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
 		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF108D9E6B5BB27EC662C3C396ED373 /* Pods-QJRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QJRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E47E7904E787BBF3C3E551B889071F0 /* Pods-QJRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2FB2EBBA338301982D61D2948AB9D742 /* GMRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMRouter.m; path = QJRouter/Classes/GMRouter.m; sourceTree = "<group>"; };
 		31C182898BDB73310FC98EF402EEF442 /* Pods-QJRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		33DDF0C319CDAACEB3E84130FD4CE911 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
-		345D29D8014FCAF9035AE9BE3E759AF4 /* QJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QJRouter-prefix.pch"; sourceTree = "<group>"; };
-		3638B2939742D423FE2E0C65D01CDACC /* QJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QJRouter.xcconfig; sourceTree = "<group>"; };
+		35DD3E1FC2C796BB5D8A69CE3C0AE33C /* GMRouter+gm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMRouter+gm.h"; path = "QJRouter/Classes/GMRouter+gm.h"; sourceTree = "<group>"; };
+		38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		401FD74EB49F956D8BB5A89D2ADE75E7 /* Target_commons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_commons.h; path = QJRouter/Classes/Target_commons.h; sourceTree = "<group>"; };
 		415AF78BA6A71CFF0B6AF808BC056767 /* Pods-QJRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QJRouter_Tests.modulemap"; sourceTree = "<group>"; };
 		4494781E5A9A93790D7E55AAA4CED1CE /* Pods-QJRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QJRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		47E97BADCD94A5C18A8C64C09A22FD92 /* GMRouter+gm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMRouter+gm.m"; path = "QJRouter/Classes/GMRouter+gm.m"; sourceTree = "<group>"; };
-		50433601B3AAFEF04D9194829A17761D /* Target_commons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_commons.m; path = QJRouter/Classes/Target_commons.m; sourceTree = "<group>"; };
+		4BE7A5D90B65F309B194D1F21683AF4F /* UIViewController+Router.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Router.h"; path = "QJRouter/Classes/UIViewController+Router.h"; sourceTree = "<group>"; };
+		4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		4F3E4D033B94C2515A47B677C43F5597 /* QJRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QJRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5067A06EA811ED9952DB0575B69C2298 /* Pods-QJRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		520A3A9FD574A96B394D81B865C1E6BB /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
 		590ECF4C04D64B74D72DCA6919620FCD /* Pods-QJRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QJRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5AEBA70958F3E94E8D543C846C797059 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		5BE10CF034A2AD16390EA40D2141E313 /* NSObject+gmKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+gmKey.h"; path = "QJRouter/Classes/NSObject+gmKey.h"; sourceTree = "<group>"; };
-		5E619AA937826CB4BD6272654B693F79 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		6585072A722592B3A760F44B3EE1EAA5 /* Target_commons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_commons.h; path = QJRouter/Classes/Target_commons.h; sourceTree = "<group>"; };
+		5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		6A13C398649BD103A0CFFE8B94FD7D8C /* Pods-QJRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJRouter_Example-Info.plist"; sourceTree = "<group>"; };
 		6B2F42A1F907D5E4265CD71AD065AD5B /* Pods-QJRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E5BC3441D59A15FDCB85329B9C0627A /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		6F140D86D46625DFA19EC5DA52FF4085 /* QJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QJRouter-umbrella.h"; sourceTree = "<group>"; };
-		6FDE02E7D2A4B3EF44B4BC31D93EAF80 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
-		72BFC4AFACD9ACAC3C9F00947646B7F2 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		6CCB534003D75CD9948A7E4EE0F463E6 /* GMRouter+gm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMRouter+gm.m"; path = "QJRouter/Classes/GMRouter+gm.m"; sourceTree = "<group>"; };
+		722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
 		7ABEF07C065DAA1093F386E0864101B0 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CA71C2F02E2C8122DA187D3B07A3EC4 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
 		84CDE0C8708DD0A0492CB17BFD00DE77 /* Pods-QJRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QJRouter_Tests-dummy.m"; sourceTree = "<group>"; };
-		86A47CD1E58E6134E1BE14A48CF6D849 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		8D900A33CC7CA3B7AE2CD4D19F3C4335 /* Pods-QJRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QJRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		9522F6F7E1E6A959DBFE548F7A5F5756 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		9189CD7E8F56C5D41448C89792A37BDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9439ED235893B1765356769F00419D69 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		97CDE2799F2FA480F3CB884D03F8659C /* QJRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QJRouter.release.xcconfig; sourceTree = "<group>"; };
 		983C6562E2783A7D62629BC5DD485EFB /* Pods-QJRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QJRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		9970287FB8A59D6CE66509205219E52C /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
-		9B63B9BE61CAA13EA3E4A6C62A8823DE /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		9B08B8B47F5D55EE470F1A1B9547E5D4 /* NSObject+gmKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+gmKey.h"; path = "QJRouter/Classes/NSObject+gmKey.h"; sourceTree = "<group>"; };
+		9B9063FE899E07252F5117A1FCA4F9CE /* UIViewController+Router.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Router.m"; path = "QJRouter/Classes/UIViewController+Router.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		A182EA2ED6DBD73A6F6DEBBE916EF503 /* Pods-QJRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QJRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A7438C725C49090EE92CED3A16DA316B /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
-		A7666F58E72D21414F1583523F1C8B57 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		B3E2896E58D70126F579F90790BB4670 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
+		B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		BE9609E4EABD808F0A17BA04199EC2E6 /* QJRouter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QJRouter.bundle; path = "QJRouter-QJRouter.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFA31624F5336DD08F70A4C8F06D756E /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		C027FA0AEE3F9BC089C125D23CB2782E /* GMRouter+gm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMRouter+gm.h"; path = "QJRouter/Classes/GMRouter+gm.h"; sourceTree = "<group>"; };
-		C28B4DEC231F343CFAD0113EFAC65BF8 /* UIViewController+Router.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Router.m"; path = "QJRouter/Classes/UIViewController+Router.m"; sourceTree = "<group>"; };
-		C5FB65C3FF2F6311F7A5380D4CCBEF2E /* ResourceBundle-QJRouter-QJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QJRouter-QJRouter-Info.plist"; sourceTree = "<group>"; };
-		CA5691BDF1A606FEA0AB9423C56BB074 /* QJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QJRouter-dummy.m"; sourceTree = "<group>"; };
-		CC32CCED44A8C62F01F92A067B9651FF /* NSObject+gmKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+gmKey.m"; path = "QJRouter/Classes/NSObject+gmKey.m"; sourceTree = "<group>"; };
-		D16CA9A56E4FB7F2F2814981B63B7029 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		C38F71FA90C6C111F9E05CD52DBD80CF /* QJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QJRouter-prefix.pch"; sourceTree = "<group>"; };
+		CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
+		D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
+		D4BC315EBFE7A5F0E0E38E6DE2D7B799 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5201356C7E519CB818F2871BF911BF3 /* gm_router.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = gm_router.plist; path = QJRouter/Assets/gm_router.plist; sourceTree = "<group>"; };
 		D6E04440B0C4DE8E60AF8C8521433CC6 /* Pods-QJRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJRouter_Tests-Info.plist"; sourceTree = "<group>"; };
-		D8D8512A56DCE8FDA31BB1A013D8D389 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		DE97AA52F6939BADB17878CCF2CC9E17 /* GMRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRouter.h; path = QJRouter/Classes/GMRouter.h; sourceTree = "<group>"; };
 		DFAD892630F4D6EB9F1F726D9F1936DD /* Pods-QJRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E04AC621D1A86F2AC40200FFAD16DBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E2C393B9E214DB9289DFDC5EC4D66BF0 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
-		EABACF79F47B01A3ADE1E5C62B303574 /* UIViewController+Router.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Router.h"; path = "QJRouter/Classes/UIViewController+Router.h"; sourceTree = "<group>"; };
-		EBB759E373C7D4DBAF91077141CA3CD3 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
-		ED7CB50D202B22B3D24D72B34EDBCA64 /* QJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QJRouter-Info.plist"; sourceTree = "<group>"; };
-		F0AA3B72E288A985348053635E8928CD /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		E0E6204F451192C7AE379E37BD8AEA59 /* QJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QJRouter-dummy.m"; sourceTree = "<group>"; };
+		E1CDEC88926F3ECF5A354C7F200A0A91 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		E2B9DC0E484DEED051090FB2FECAB0F2 /* QJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QJRouter.modulemap; sourceTree = "<group>"; };
+		EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		F258E76651B18C4D95892700D7FCF414 /* Target_commons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_commons.m; path = QJRouter/Classes/Target_commons.m; sourceTree = "<group>"; };
+		F2B9F18B855655B71003000F01603B8F /* GMRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMRouter.m; path = QJRouter/Classes/GMRouter.m; sourceTree = "<group>"; };
 		F31B8C2B4153A7FEB5D88B6D3161B79B /* Pods_QJRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QJRouter_Example.framework; path = "Pods-QJRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F474769DF05520EE99C71EA610BA6AF7 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
-		F520C2458C20F488C770CB2E2B29CEF9 /* GMRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRouter.h; path = QJRouter/Classes/GMRouter.h; sourceTree = "<group>"; };
-		FB16CB4E95C7E7CA54B8BFD76D6C8BD5 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
-		FE4D74F5C81B7091E11359FC9499F1C6 /* QJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QJRouter.modulemap; sourceTree = "<group>"; };
+		F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
+		F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		FF07CC3F22DB664F474FC92681CA2C26 /* QJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QJRouter.framework; path = QJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF569F72A33E31FD129DF9436EE729CC /* Pods-QJRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF78A7E647C2F99592E508F5E8944416 /* NSObject+gmKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+gmKey.m"; path = "QJRouter/Classes/NSObject+gmKey.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,22 +215,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CBF17A7C1A9B1D510602F93F9BA2749 /* Pod */ = {
+		09CFB7B0128F70A029CD34F214B5EEA3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				23B9FDCF5126591C8EDA191B43A567E8 /* LICENSE */,
-				08ED83B2B8716E030B733A76D46D0974 /* QJRouter.podspec */,
-				1271D9F0DEA44B93CF4695CE5D35D942 /* README.md */,
+				E1CDEC88926F3ECF5A354C7F200A0A91 /* MJExtension.modulemap */,
+				EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */,
+				B3E2896E58D70126F579F90790BB4670 /* MJExtension-Info.plist */,
+				520A3A9FD574A96B394D81B865C1E6BB /* MJExtension-prefix.pch */,
+				D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */,
+				CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */,
+				F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		0ECA17A8BD0CF190025AA56175F80CA9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0EF8D560C369F71A2802C167BED495E0 /* gm_router.plist */,
-			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
 			sourceTree = "<group>";
 		};
 		19E839D93604A52EAC47D0E0168640B2 /* Targets Support Files */ = {
@@ -238,36 +237,6 @@
 				8EA7B96D80DE5A2CA6918CBC5B7EC7C2 /* Pods-QJRouter_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1BE342ADF33B00D6EB9875C6CA02EFB0 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				05023A0B1898974DA5A7AB5B4E829619 /* MJExtension.h */,
-				23077A4E0B13FB264EC009F2BFE320F0 /* MJExtensionConst.h */,
-				9970287FB8A59D6CE66509205219E52C /* MJExtensionConst.m */,
-				5AEBA70958F3E94E8D543C846C797059 /* MJFoundation.h */,
-				72BFC4AFACD9ACAC3C9F00947646B7F2 /* MJFoundation.m */,
-				5E619AA937826CB4BD6272654B693F79 /* MJProperty.h */,
-				1EBFC8B09F9FEE9C01B6AC97758F30CF /* MJProperty.m */,
-				FB16CB4E95C7E7CA54B8BFD76D6C8BD5 /* MJPropertyKey.h */,
-				6FDE02E7D2A4B3EF44B4BC31D93EAF80 /* MJPropertyKey.m */,
-				A7666F58E72D21414F1583523F1C8B57 /* MJPropertyType.h */,
-				7CA71C2F02E2C8122DA187D3B07A3EC4 /* MJPropertyType.m */,
-				EBB759E373C7D4DBAF91077141CA3CD3 /* NSObject+MJClass.h */,
-				E2C393B9E214DB9289DFDC5EC4D66BF0 /* NSObject+MJClass.m */,
-				BFA31624F5336DD08F70A4C8F06D756E /* NSObject+MJCoding.h */,
-				9522F6F7E1E6A959DBFE548F7A5F5756 /* NSObject+MJCoding.m */,
-				265191AF18ABA408F7AEAC2C6D7DD57B /* NSObject+MJKeyValue.h */,
-				6E5BC3441D59A15FDCB85329B9C0627A /* NSObject+MJKeyValue.m */,
-				D16CA9A56E4FB7F2F2814981B63B7029 /* NSObject+MJProperty.h */,
-				28E782F8259378AD0DBF815F97964885 /* NSObject+MJProperty.m */,
-				D8D8512A56DCE8FDA31BB1A013D8D389 /* NSString+MJExtension.h */,
-				F0AA3B72E288A985348053635E8928CD /* NSString+MJExtension.m */,
-				858B930326AD76BB2F53D253D52E220D /* Support Files */,
-			);
-			name = MJExtension;
-			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		22B1CE673A1A094FBC3C0A0811BCC39F /* Products */ = {
@@ -285,59 +254,39 @@
 		485E1CD6B8CFFF0AC27759D95D7F66B6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5506F30CD86D8FC85E895D5FE8A689B1 /* QJRouter */,
+				9B4BA889A7A51A6B8F54C9E6B8DE909E /* QJRouter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5506F30CD86D8FC85E895D5FE8A689B1 /* QJRouter */ = {
+		808A5CABAA06C682B29EC43B40BF875E /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
-				F520C2458C20F488C770CB2E2B29CEF9 /* GMRouter.h */,
-				2FB2EBBA338301982D61D2948AB9D742 /* GMRouter.m */,
-				C027FA0AEE3F9BC089C125D23CB2782E /* GMRouter+gm.h */,
-				47E97BADCD94A5C18A8C64C09A22FD92 /* GMRouter+gm.m */,
-				5BE10CF034A2AD16390EA40D2141E313 /* NSObject+gmKey.h */,
-				CC32CCED44A8C62F01F92A067B9651FF /* NSObject+gmKey.m */,
-				6585072A722592B3A760F44B3EE1EAA5 /* Target_commons.h */,
-				50433601B3AAFEF04D9194829A17761D /* Target_commons.m */,
-				EABACF79F47B01A3ADE1E5C62B303574 /* UIViewController+Router.h */,
-				C28B4DEC231F343CFAD0113EFAC65BF8 /* UIViewController+Router.m */,
-				0CBF17A7C1A9B1D510602F93F9BA2749 /* Pod */,
-				0ECA17A8BD0CF190025AA56175F80CA9 /* Resources */,
-				81DEECEB6EB5C738E7028C378926D7E6 /* Support Files */,
+				4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */,
+				5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */,
+				8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */,
+				2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */,
+				CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */,
+				1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */,
+				B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */,
+				647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */,
+				F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */,
+				F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */,
+				9439ED235893B1765356769F00419D69 /* MJPropertyType.m */,
+				7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */,
+				A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */,
+				B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */,
+				38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */,
+				722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */,
+				15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */,
+				52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */,
+				E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */,
+				9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */,
+				CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */,
+				09CFB7B0128F70A029CD34F214B5EEA3 /* Support Files */,
 			);
-			name = QJRouter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		81DEECEB6EB5C738E7028C378926D7E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FE4D74F5C81B7091E11359FC9499F1C6 /* QJRouter.modulemap */,
-				3638B2939742D423FE2E0C65D01CDACC /* QJRouter.xcconfig */,
-				CA5691BDF1A606FEA0AB9423C56BB074 /* QJRouter-dummy.m */,
-				ED7CB50D202B22B3D24D72B34EDBCA64 /* QJRouter-Info.plist */,
-				345D29D8014FCAF9035AE9BE3E759AF4 /* QJRouter-prefix.pch */,
-				6F140D86D46625DFA19EC5DA52FF4085 /* QJRouter-umbrella.h */,
-				C5FB65C3FF2F6311F7A5380D4CCBEF2E /* ResourceBundle-QJRouter-QJRouter-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QJRouter";
-			sourceTree = "<group>";
-		};
-		858B930326AD76BB2F53D253D52E220D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0282F6B57578F509AB21A267736170B1 /* MJExtension.modulemap */,
-				9B63B9BE61CAA13EA3E4A6C62A8823DE /* MJExtension.xcconfig */,
-				86A47CD1E58E6134E1BE14A48CF6D849 /* MJExtension-dummy.m */,
-				A7438C725C49090EE92CED3A16DA316B /* MJExtension-Info.plist */,
-				F474769DF05520EE99C71EA610BA6AF7 /* MJExtension-prefix.pch */,
-				33DDF0C319CDAACEB3E84130FD4CE911 /* MJExtension-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MJExtension";
+			name = MJExtension;
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		8EA7B96D80DE5A2CA6918CBC5B7EC7C2 /* Pods-QJRouter_Tests */ = {
@@ -365,6 +314,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9B4BA889A7A51A6B8F54C9E6B8DE909E /* QJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				DE97AA52F6939BADB17878CCF2CC9E17 /* GMRouter.h */,
+				F2B9F18B855655B71003000F01603B8F /* GMRouter.m */,
+				35DD3E1FC2C796BB5D8A69CE3C0AE33C /* GMRouter+gm.h */,
+				6CCB534003D75CD9948A7E4EE0F463E6 /* GMRouter+gm.m */,
+				9B08B8B47F5D55EE470F1A1B9547E5D4 /* NSObject+gmKey.h */,
+				FF78A7E647C2F99592E508F5E8944416 /* NSObject+gmKey.m */,
+				401FD74EB49F956D8BB5A89D2ADE75E7 /* Target_commons.h */,
+				F258E76651B18C4D95892700D7FCF414 /* Target_commons.m */,
+				4BE7A5D90B65F309B194D1F21683AF4F /* UIViewController+Router.h */,
+				9B9063FE899E07252F5117A1FCA4F9CE /* UIViewController+Router.m */,
+				A4B9FDC234451783BB67A426088C13E7 /* Pod */,
+				B0BB9D4C977151D6EB2F72B0982F9531 /* Resources */,
+				DE3AC30923A63F4B962A115C7037AB70 /* Support Files */,
+			);
+			name = QJRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A4B9FDC234451783BB67A426088C13E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9189CD7E8F56C5D41448C89792A37BDD /* LICENSE */,
+				4F3E4D033B94C2515A47B677C43F5597 /* QJRouter.podspec */,
+				D4BC315EBFE7A5F0E0E38E6DE2D7B799 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B0BB9D4C977151D6EB2F72B0982F9531 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5201356C7E519CB818F2871BF911BF3 /* gm_router.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		B939077393606C5435675E343A14745A /* Pods-QJRouter_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,7 +373,7 @@
 		BBE7F25BDF6E2ECE64867498D8902AF4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1BE342ADF33B00D6EB9875C6CA02EFB0 /* MJExtension */,
+				808A5CABAA06C682B29EC43B40BF875E /* MJExtension */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -408,6 +396,22 @@
 				E04AC621D1A86F2AC40200FFAD16DBAA /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE3AC30923A63F4B962A115C7037AB70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2B9DC0E484DEED051090FB2FECAB0F2 /* QJRouter.modulemap */,
+				E0E6204F451192C7AE379E37BD8AEA59 /* QJRouter-dummy.m */,
+				0E67A0EC7B72781A59D0FBE0917681DF /* QJRouter-Info.plist */,
+				C38F71FA90C6C111F9E05CD52DBD80CF /* QJRouter-prefix.pch */,
+				0DA17825C8D884A9127DF0071BB105B2 /* QJRouter-umbrella.h */,
+				08C4FB19CFEC79C87C9501CE09C19E6D /* QJRouter.debug.xcconfig */,
+				97CDE2799F2FA480F3CB884D03F8659C /* QJRouter.release.xcconfig */,
+				207BDFC2579C5F6B43BDF6049B53DEC3 /* ResourceBundle-QJRouter-QJRouter-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QJRouter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -573,6 +577,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 22B1CE673A1A094FBC3C0A0811BCC39F /* Products */;
@@ -786,9 +791,9 @@
 			};
 			name = Release;
 		};
-		4BBA846F9DFB00394F524C561D711CA6 /* Debug */ = {
+		27E8B38BF8C2E3A9F3C00BB4BBA6AD71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3638B2939742D423FE2E0C65D01CDACC /* QJRouter.xcconfig */;
+			baseConfigurationReference = 97CDE2799F2FA480F3CB884D03F8659C /* QJRouter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -812,10 +817,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -877,9 +883,26 @@
 			};
 			name = Release;
 		};
-		77D400723AEB9FFF73BF6BA0499F4228 /* Release */ = {
+		5FA2DB9AD9123C17E5AA87072B4BC9AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3638B2939742D423FE2E0C65D01CDACC /* QJRouter.xcconfig */;
+			baseConfigurationReference = 08C4FB19CFEC79C87C9501CE09C19E6D /* QJRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QJRouter";
+				IBSC_MODULE = QJRouter;
+				INFOPLIST_FILE = "Target Support Files/QJRouter/ResourceBundle-QJRouter-QJRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		608267C8C52EBF412E5EACC6BC1FABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C4FB19CFEC79C87C9501CE09C19E6D /* QJRouter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -903,9 +926,56 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64E4AD83EBF529047805DEBA2E604CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78A22886D2A1C01100267D72B9E35BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CDE2799F2FA480F3CB884D03F8659C /* QJRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QJRouter";
+				IBSC_MODULE = QJRouter;
+				INFOPLIST_FILE = "Target Support Files/QJRouter/ResourceBundle-QJRouter-QJRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -972,69 +1042,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		BBF2C4C676A6440D1AF7CC7EB6C284DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3638B2939742D423FE2E0C65D01CDACC /* QJRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QJRouter";
-				INFOPLIST_FILE = "Target Support Files/QJRouter/ResourceBundle-QJRouter-QJRouter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QJRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C842A608BABB0D1399294C5C7D55AB24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B63B9BE61CAA13EA3E4A6C62A8823DE /* MJExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
-				PRODUCT_MODULE_NAME = MJExtension;
-				PRODUCT_NAME = MJExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CDB8F2D18A8EE026A884706CCDFBB610 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3638B2939742D423FE2E0C65D01CDACC /* QJRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QJRouter";
-				INFOPLIST_FILE = "Target Support Files/QJRouter/ResourceBundle-QJRouter-QJRouter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QJRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		D48519292E8129FE3C0F0E7E166CD2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1103,9 +1110,9 @@
 			};
 			name = Release;
 		};
-		E61777CBBD35D87D3F573DF8663F99A2 /* Release */ = {
+		FC694171C79213A671A5E3632E3B829F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B63B9BE61CAA13EA3E4A6C62A8823DE /* MJExtension.xcconfig */;
+			baseConfigurationReference = F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1159,8 +1166,8 @@
 		5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C842A608BABB0D1399294C5C7D55AB24 /* Debug */,
-				E61777CBBD35D87D3F573DF8663F99A2 /* Release */,
+				64E4AD83EBF529047805DEBA2E604CA2 /* Debug */,
+				FC694171C79213A671A5E3632E3B829F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1177,8 +1184,8 @@
 		A688519138187B74F5C2D3DAA9860B61 /* Build configuration list for PBXNativeTarget "QJRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BBA846F9DFB00394F524C561D711CA6 /* Debug */,
-				77D400723AEB9FFF73BF6BA0499F4228 /* Release */,
+				608267C8C52EBF412E5EACC6BC1FABDD /* Debug */,
+				27E8B38BF8C2E3A9F3C00BB4BBA6AD71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1186,8 +1193,8 @@
 		F95942469B683E541811B536BF680D77 /* Build configuration list for PBXNativeTarget "QJRouter-QJRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBF2C4C676A6440D1AF7CC7EB6C284DB /* Debug */,
-				CDB8F2D18A8EE026A884706CCDFBB610 /* Release */,
+				5FA2DB9AD9123C17E5AA87072B4BC9AD /* Debug */,
+				78A22886D2A1C01100267D72B9E35BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
