@@ -6,7 +6,7 @@
 //
 
 #import "UIViewController+Router.h"
-#import "GMRouter+gm.h"
+#import "QJRouter+gm.h"
 #import <MJExtension/MJExtension.h>
 
 @implementation UIViewController (Router)

@@ -5,7 +5,7 @@
 //  Created by Q14 on 2019/11/28.
 //
 
-#import "GMRouter.h"
+#import "QJRouter.h"
 #import "Target_commons.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -40,7 +40,7 @@ void registerSelectorToMediator(NSString *clsName,NSString *selName);
 void removeSelectorToMediator(NSString *clsName);
 
 
-@interface GMRouter (gm)
+@interface QJRouter (gm)
 
 /**
 * 通过vc类的名字创建vc,默认的vc创建函数为createVC:
@@ -92,12 +92,19 @@ void removeSelectorToMediator(NSString *clsName);
  * 例如gengmei://welfare_special
  *
  * @param params 创建vc初始化要传递的参数
- * {@"service_id": @"5930",@"is_new_special": @0} 
+ * {@"service_id": @"5930",@"is_new_special": @0}
  *
  * @return vc的实例
  *
  */
 - (id)pushScheme:(NSString *)urlScheme params:(NSDictionary *)params;
+
+
+/**
+* 初始化Map
+*
+*/
+- (void)initializeRouteMap;
 @end
 
 NS_ASSUME_NONNULL_END

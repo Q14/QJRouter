@@ -3,25 +3,25 @@
 //  GMRouter
 //
 //  Created by Q14 on 2019/11/28.
-//
+//  这个地方是根据CTMediator思路改编而成
 
-#import "GMRouter.h"
+#import "QJRouter.h"
 
 NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwiftTargetModuleName";
 
-@interface GMRouter()
+@interface QJRouter()
 @property (nonatomic, strong) NSMutableDictionary *cachedTarget;
 
 @end
 
-@implementation GMRouter
+@implementation QJRouter
 
 #pragma mark - public methods
 + (instancetype)sharedInstance {
-    static GMRouter *router;
+    static QJRouter *router;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        router = [[GMRouter alloc] init];
+        router = [[QJRouter alloc] init];
     });
     return router;
 }

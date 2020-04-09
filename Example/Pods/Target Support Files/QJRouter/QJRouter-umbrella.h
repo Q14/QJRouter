@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "GMRouter+gm.h"
-#import "GMRouter.h"
 #import "NSObject+gmKey.h"
+#import "QJRouter+gm.h"
+#import "QJRouter.h"
 #import "Target_commons.h"
 #import "UIViewController+Router.h"
 

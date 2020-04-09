@@ -5,7 +5,7 @@
 //  Created by Q14 on 2019/11/28.
 //
 
-#import "GMRouter+gm.h"
+#import "QJRouter+gm.h"
 #import <objc/message.h>
 
 //nsstring
@@ -21,19 +21,69 @@ NSString *const GMRouterActionPrefix = @"Action_";
 NSString *const GMRouterActionSuffix = @":";
 NSString *const GMRouterTargetPrefix = @"Target_";
 
-static NSMutableDictionary *routeMap = nil;
-@implementation GMRouter (gm)
+/**
+ 增加一个魔块 需要在路由做映射
+ */
+NSString *const GMRouterTargetAI = @"Target_AI";
+NSString *const GMRouterTargetBanking = @"Target_Banking";
+NSString *const GMRouterTargetCommunity = @"Target_Community";
+NSString *const GMRouterTargetWeb = @"Target_Web";
 
-+ (void)initialize {
-    //私有库中只能这样写
-    NSBundle *bundle = [NSBundle bundleForClass:[GMRouter class]];
-    NSURL *bundleURL = [bundle URLForResource:@"QJRouter" withExtension:@"bundle"];
-    NSBundle *plistBundle = [NSBundle bundleWithURL:bundleURL];
-    NSURL *plistUrl = [plistBundle URLForResource:@"gm_router" withExtension:@"plist"];
-    if (!routeMap) {
-       routeMap = [[NSMutableDictionary alloc] initWithContentsOfURL:plistUrl];
+static NSMutableDictionary *routeMap = nil;
+
+@implementation QJRouter (gm)
+
+- (void)initializeRouteMap {
+    routeMap = [[NSMutableDictionary alloc] initWithCapacity:50];
+    NSArray *arr = @[GMRouterTargetAI, GMRouterTargetBanking, GMRouterTargetCommunity, GMRouterTargetWeb];
+    for (NSString *clsStr in arr) {
+       NSDictionary *dict = [self getMethods:clsStr];
+       [routeMap addEntriesFromDictionary:dict];
     }
 }
+
+#pragma mark - 获取类的所有方法
+// 获取所有的方法
+- (NSDictionary *)getMethods:(NSString *)clsStr {
+    Class cls = NSClassFromString(clsStr);
+    NSRange range = [clsStr rangeOfString:@"Target_"];
+    NSString *targetValue =  [clsStr substringFromIndex:range.length];
+    
+    NSAssert(targetValue.length != 0, @"Target_后不能为空！请注意Target");
+
+    unsigned int count = 0;
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    
+    // 获取类的所有 Method
+    Method *methods = class_copyMethodList([cls class], &count);
+    
+    for (NSUInteger i = 0; i < count; i ++) {
+        
+        // 获取方法 Name
+        SEL methodSEL = method_getName(methods[i]);
+        const char *methodName = sel_getName(methodSEL);
+        NSString *name = [NSString stringWithUTF8String:methodName];
+        //获取到的是这样的 pushToHospitalDetail: 因此要去掉：
+        NSString *rangeStr = @":";
+        if ([name containsString:rangeStr]) {
+            NSRange range = [name rangeOfString:rangeStr];
+            name = [name substringToIndex:range.location];
+        }
+        // 获取方法的参数列表
+        int arguments = method_getNumberOfArguments(methods[i]);
+        
+        NSString *promoteStr = [NSString stringWithFormat:@"%@-内有重复的方法名-%@", clsStr, name];
+        NSAssert(![dict.allKeys containsObject:name], promoteStr);
+
+        //因为消息发送的时候会有两个默认的参数（消息接受者和方法名），所以需要减去2
+        dict[name] = targetValue;
+    }
+    
+    free(methods);
+    return dict;
+}
+
+
 
 - (id)performAction:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget{
     
@@ -75,30 +125,72 @@ static NSMutableDictionary *routeMap = nil;
 }
 
 - (id)pushScheme:(NSString *)urlScheme {
-    NSString *encodeUrlScheme = [self URLDecodedString:urlScheme];
+    NSString *encodeUrlScheme = [self URLEncodeString:urlScheme];
     NSURL *url = [NSURL URLWithString:encodeUrlScheme];
     if (!url) {
 //        debugLog(@"协议出错了!");
     }
     NSString *host = url.host;
-    NSDictionary *dict = [routeMap objectForKey:host];
-    NSString *sel = dict[@"sel"];
-    NSString *targetName = dict[@"target"];
-    NSDictionary *params = [self urlQueryToDictionary:encodeUrlScheme];
-
-    return [self performTarget:targetName action:sel params:params shouldCacheTarget:NO];
+    NSString *targetName = [routeMap objectForKey:host];
+    NSDictionary *params = [self getParams:encodeUrlScheme withHost:host];
+    
+    host = [self getHostWithEncodeUrlScheme:encodeUrlScheme host:host];
+    id vc = [self performTarget:targetName action:host params:params shouldCacheTarget:NO];
+    return vc;
 }
 
+
+- (NSDictionary *)getParams:(NSString *)encodeUrlScheme withHost:(NSString *)host {
+    NSDictionary *params;
+    NSArray *array = [encodeUrlScheme componentsSeparatedByString:@"url="];
+    if (([host isEqualToString:@"third_webview"] || [host isEqualToString:@"common_webview"]) && array.count > 1) {
+        NSString *value = array[1];
+        //拦截所有的即将调转的url(value),如果不在白名单之中,让其使用GMThirdWebViewController加载. 必须要用while 因为url部分包含 %3A  gengmei://common_webview?url=http%3A//backend.paas.env/hybrid/base_wiki/item/285
+
+
+        while ([value rangeOfString:@"%"].length != 0) {
+            value = [self URLDecodedString:value];
+        }
+        params = @{@"url":value};
+    } else {
+        params = [self urlQueryToDictionary:encodeUrlScheme];
+    }
+    return params;
+}
+
+- (NSString *)getHostWithEncodeUrlScheme:(NSString *)encodeUrlScheme host:(NSString *)host {
+    NSArray *array = [encodeUrlScheme componentsSeparatedByString:@"url="];
+    if (([host isEqualToString:@"third_webview"] || [host isEqualToString:@"common_webview"]) && array.count > 1) {
+        NSString *value = array[1];
+        while ([value rangeOfString:@"%"].length != 0) {
+            value = [ self URLDecodedString:value];
+        }
+        //拦截所有的即将调转的url(value),如果不在白名单之中,让其使用GMThirdWebViewController加载.
+       NSString *valueHost = [[NSURL URLWithString:value] host];
+       Class cls = NSClassFromString(@"GMServerDomains");
+       if ([cls respondsToSelector:@selector(allowURLHost:)]) {
+         BOOL isAllow = [cls performSelector:@selector(allowURLHost:) withObject:valueHost];
+           if (!isAllow) {
+                host = @"third_webview";
+           }
+       }
+    }
+    return host;
+}
+
+//-(void)
+
 - (id)pushScheme:(NSString *)urlScheme params:(NSDictionary *)params {
-    NSString *encodeUrlScheme = [self URLDecodedString:urlScheme];
+    NSString *encodeUrlScheme = [self URLEncodeString:urlScheme];
     NSURL *url = [NSURL URLWithString:encodeUrlScheme];
     if (!url) {
+    //        debugLog(@"协议出错了!");
     }
     NSString *host = url.host;
-    NSDictionary *dict = [routeMap objectForKey:host];
-    NSString *sel = dict[@"sel"];
-    NSString *targetName = dict[@"target"];
-    return [self performTarget:targetName action:sel params:params shouldCacheTarget:NO];
+    NSString *targetName = [routeMap objectForKey:host];
+    NSDictionary *paramsDict = [self getParams:encodeUrlScheme withHost:host];
+    host = [self getHostWithEncodeUrlScheme:encodeUrlScheme host:host];
+    return [self performTarget:targetName action:host params:paramsDict shouldCacheTarget:NO];
 }
 
 #pragma mark - string to dict
@@ -110,6 +202,8 @@ static NSMutableDictionary *routeMap = nil;
     NSString *query = [url1 query];
     return [self queryToDictionary:query];
 }
+
+
 
 - (NSDictionary*)queryToDictionary:(NSString *)query {
     @try {
@@ -149,6 +243,11 @@ static NSMutableDictionary *routeMap = nil;
     return result;
 }
 
+
+- (NSString *)URLEncodeString:(NSString *)urlStr {
+    NSString *encodedString = [urlStr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    return encodedString;
+}
 
 
 

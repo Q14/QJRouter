@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 extern NSString * const GMRouterParamsKeySwiftTargetModuleName;
 
-@interface GMRouter : NSObject
+@interface QJRouter : NSObject
 + (instancetype)sharedInstance;
 
 // 远程App调用入口 universalLink
