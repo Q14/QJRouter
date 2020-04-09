@@ -37,8 +37,8 @@ static NSMutableDictionary *routeMap = nil;
     routeMap = [[NSMutableDictionary alloc] initWithCapacity:50];
     NSArray *arr = @[GMRouterTargetAI, GMRouterTargetBanking, GMRouterTargetCommunity, GMRouterTargetWeb];
     for (NSString *clsStr in arr) {
-       NSDictionary *dict = [self getMethods:clsStr];
-       [routeMap addEntriesFromDictionary:dict];
+        NSDictionary *dict = [self getMethods:clsStr];
+        [routeMap addEntriesFromDictionary:dict];
     }
 }
 
@@ -50,7 +50,7 @@ static NSMutableDictionary *routeMap = nil;
     NSString *targetValue =  [clsStr substringFromIndex:range.length];
     
     NSAssert(targetValue.length != 0, @"Target_后不能为空！请注意Target");
-
+    
     unsigned int count = 0;
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     
@@ -74,7 +74,7 @@ static NSMutableDictionary *routeMap = nil;
         
         NSString *promoteStr = [NSString stringWithFormat:@"%@-内有重复的方法名-%@", clsStr, name];
         NSAssert(![dict.allKeys containsObject:name], promoteStr);
-
+        
         //因为消息发送的时候会有两个默认的参数（消息接受者和方法名），所以需要减去2
         dict[name] = targetValue;
     }
@@ -128,7 +128,7 @@ static NSMutableDictionary *routeMap = nil;
     NSString *encodeUrlScheme = [self URLEncodeString:urlScheme];
     NSURL *url = [NSURL URLWithString:encodeUrlScheme];
     if (!url) {
-//        debugLog(@"协议出错了!");
+        //        debugLog(@"协议出错了!");
     }
     NSString *host = url.host;
     NSString *targetName = [routeMap objectForKey:host];
@@ -145,9 +145,7 @@ static NSMutableDictionary *routeMap = nil;
     NSArray *array = [encodeUrlScheme componentsSeparatedByString:@"url="];
     if (([host isEqualToString:@"third_webview"] || [host isEqualToString:@"common_webview"]) && array.count > 1) {
         NSString *value = array[1];
-        //拦截所有的即将调转的url(value),如果不在白名单之中,让其使用GMThirdWebViewController加载. 必须要用while 因为url部分包含 %3A  gengmei://common_webview?url=http%3A//backend.paas.env/hybrid/base_wiki/item/285
-
-
+        
         while ([value rangeOfString:@"%"].length != 0) {
             value = [self URLDecodedString:value];
         }
@@ -165,26 +163,15 @@ static NSMutableDictionary *routeMap = nil;
         while ([value rangeOfString:@"%"].length != 0) {
             value = [ self URLDecodedString:value];
         }
-        //拦截所有的即将调转的url(value),如果不在白名单之中,让其使用GMThirdWebViewController加载.
-       NSString *valueHost = [[NSURL URLWithString:value] host];
-       Class cls = NSClassFromString(@"GMServerDomains");
-       if ([cls respondsToSelector:@selector(allowURLHost:)]) {
-         BOOL isAllow = [cls performSelector:@selector(allowURLHost:) withObject:valueHost];
-           if (!isAllow) {
-                host = @"third_webview";
-           }
-       }
     }
     return host;
 }
-
-//-(void)
 
 - (id)pushScheme:(NSString *)urlScheme params:(NSDictionary *)params {
     NSString *encodeUrlScheme = [self URLEncodeString:urlScheme];
     NSURL *url = [NSURL URLWithString:encodeUrlScheme];
     if (!url) {
-    //        debugLog(@"协议出错了!");
+        //        debugLog(@"协议出错了!");
     }
     NSString *host = url.host;
     NSString *targetName = [routeMap objectForKey:host];
@@ -258,8 +245,6 @@ NSString *enActionFuncName(NSString *actionName){
 }
 
 NSString *deActionFuncName(NSString *action){
-    //    NSString *prefix = @"Action_";
-    //    NSString *suffix = @":";TargetCommons
     if ([action hasPrefix:GMRouterActionPrefix] &&
         [action hasSuffix:GMRouterActionSuffix]) {
         return [action substringWithRange:NSMakeRange(GMRouterActionPrefix.length, action.length - GMRouterActionPrefix.length - GMRouterActionSuffix.length)];

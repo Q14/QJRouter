@@ -76,7 +76,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
         Class targetClass = NSClassFromString(targetClassString);
         target = [[targetClass alloc] init];
     }
-
+    
     // generate action
     NSString *actionString = [NSString stringWithFormat:@"%@:", actionName];
     SEL action = NSSelectorFromString(actionString);
@@ -90,7 +90,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
     if (shouldCacheTarget) {
         self.cachedTarget[targetClassString] = target;
     }
-
+    
     if ([target respondsToSelector:action]) {
         return [self safePerformAction:action target:target params:params];
     } else {
@@ -134,7 +134,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
         return nil;
     }
     const char* retType = [methodSig methodReturnType];
-
+    
     if (strcmp(retType, @encode(void)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -143,7 +143,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
         [invocation invoke];
         return nil;
     }
-
+    
     if (strcmp(retType, @encode(NSInteger)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -154,7 +154,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
         [invocation getReturnValue:&result];
         return @(result);
     }
-
+    
     if (strcmp(retType, @encode(BOOL)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -165,7 +165,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
         [invocation getReturnValue:&result];
         return @(result);
     }
-
+    
     if (strcmp(retType, @encode(CGFloat)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -176,7 +176,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
         [invocation getReturnValue:&result];
         return @(result);
     }
-
+    
     if (strcmp(retType, @encode(NSUInteger)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -187,7 +187,7 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
         [invocation getReturnValue:&result];
         return @(result);
     }
-
+    
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     return [target performSelector:action withObject:params];
