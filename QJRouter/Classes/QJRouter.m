@@ -6,6 +6,7 @@
 //  这个地方是根据CTMediator思路改编而成
 
 #import "QJRouter.h"
+#import "QJRouter+gm.h"
 
 NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwiftTargetModuleName";
 
@@ -26,6 +27,10 @@ NSString * const GMRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwi
     return router;
 }
 
+- (void)setTargetArray:(NSArray *)targetArray {
+    _targetArray = targetArray;
+    [self initializeRouteMap];
+}
 /*
  scheme://[target]/[action]?[params]
  

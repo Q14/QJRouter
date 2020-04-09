@@ -14,6 +14,8 @@ extern NSString * const GMRouterParamsKeySwiftTargetModuleName;
 @interface QJRouter : NSObject
 + (instancetype)sharedInstance;
 
+@property (nonatomic, copy) NSArray *targetArray;
+
 // 远程App调用入口 universalLink
 - (id)performActionWithUrl:(NSURL *)url completion:(void(^)(NSDictionary *info))completion;
 

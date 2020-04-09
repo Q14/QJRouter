@@ -21,26 +21,30 @@ NSString *const GMRouterActionPrefix = @"Action_";
 NSString *const GMRouterActionSuffix = @":";
 NSString *const GMRouterTargetPrefix = @"Target_";
 
-/**
- 增加一个魔块 需要在路由做映射
- */
-NSString *const GMRouterTargetAI = @"Target_AI";
-NSString *const GMRouterTargetBanking = @"Target_Banking";
-NSString *const GMRouterTargetCommunity = @"Target_Community";
-NSString *const GMRouterTargetWeb = @"Target_Web";
+
+NSString *const GMRouterTargetA = @"Target_A";
+NSString *const GMRouterTargetB = @"Target_B";
 
 static NSMutableDictionary *routeMap = nil;
 
 @implementation QJRouter (gm)
 
 - (void)initializeRouteMap {
-    routeMap = [[NSMutableDictionary alloc] initWithCapacity:50];
-    NSArray *arr = @[GMRouterTargetAI, GMRouterTargetBanking, GMRouterTargetCommunity, GMRouterTargetWeb];
-    for (NSString *clsStr in arr) {
+    if (routeMap) {
+        [routeMap removeAllObjects];
+    } else {
+        routeMap = [[NSMutableDictionary alloc] initWithCapacity:50];
+    }
+    NSArray *arr = self.targetArray;
+    if (!arr) {
+        arr = @[GMRouterTargetA, GMRouterTargetB];
+    }
+    for (NSString *clsStr in self.targetArray) {
         NSDictionary *dict = [self getMethods:clsStr];
         [routeMap addEntriesFromDictionary:dict];
     }
 }
+
 
 #pragma mark - 获取类的所有方法
 // 获取所有的方法

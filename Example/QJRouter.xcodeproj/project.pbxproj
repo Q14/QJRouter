@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C6F203243F507B0009616A /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6F202243F507B0009616A /* Target_A.m */; };
+		04C6F206243F508D0009616A /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6F205243F508D0009616A /* Target_B.m */; };
 		2DF12292E5A93391771E9676 /* Pods_QJRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EB01F55A78A2F0DA67558 /* Pods_QJRouter_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C6F201243F507B0009616A /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		04C6F202243F507B0009616A /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		04C6F204243F508D0009616A /* Target_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		04C6F205243F508D0009616A /* Target_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
 		13BB7CC8C88B2EC68C0953B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		21DD2408E3B33656984AB6E0 /* Pods-QJRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-QJRouter_Example/Pods-QJRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F2E21A930D6852EFF2F573B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -134,6 +140,10 @@
 			children = (
 				6003F59C195388D20070C39A /* QJAppDelegate.h */,
 				6003F59D195388D20070C39A /* QJAppDelegate.m */,
+				04C6F201243F507B0009616A /* Target_A.h */,
+				04C6F202243F507B0009616A /* Target_A.m */,
+				04C6F204243F508D0009616A /* Target_B.h */,
+				04C6F205243F508D0009616A /* Target_B.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* QJViewController.h */,
 				6003F5A6195388D20070C39A /* QJViewController.m */,
@@ -366,7 +376,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C6F203243F507B0009616A /* Target_A.m in Sources */,
 				6003F59E195388D20070C39A /* QJAppDelegate.m in Sources */,
+				04C6F206243F508D0009616A /* Target_B.m in Sources */,
 				6003F5A7195388D20070C39A /* QJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
