@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface QJViewController : UIViewController
+@interface QJViewController : UITableViewController
 
 @end

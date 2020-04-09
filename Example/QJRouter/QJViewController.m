@@ -8,7 +8,7 @@
 
 #import "QJViewController.h"
 
-@interface QJViewController ()
+@interface QJViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @end
 
@@ -18,12 +18,29 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    if (indexPath.row == 0) {
+        cell.textLabel.text = @"点我跳转A模块";
+    } else if (indexPath.row == 1) {
+        cell.textLabel.text = @"点我跳转B模块";
+        cell.textLabel.text = [NSString stringWithFormat:@"aaa-%ld",indexPath.row];
+
+    }
+    return cell;
 }
 
 @end
