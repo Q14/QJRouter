@@ -7,12 +7,16 @@
 //
 
 #import "QJAppDelegate.h"
+#import <QJRouter/QJRouter.h>
+#import "Target_A.h"
+#import "Target_B.h"
 
 @implementation QJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    QJRouter.sharedInstance.targetArray = @[NSStringFromClass([Target_A class]), NSStringFromClass([Target_B class])];
     return YES;
 }
 

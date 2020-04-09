@@ -7,6 +7,8 @@
 //
 
 #import "QJViewController.h"
+#import <QJRouter/QJRouter.h>
+#import <QJRouter/QJRouter+gm.h>
 
 @interface QJViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -44,8 +46,11 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
+        [QJRouter.sharedInstance pushScheme:@"qj://push_a?title=跳转A&name=我是A"];
     } else if (indexPath.row == 1) {
+        [QJRouter.sharedInstance pushScheme:@"qj://push_b?title=跳转A&name=我是A"];
     } else {
+        
     }
 }
 

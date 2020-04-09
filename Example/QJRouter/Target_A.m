@@ -9,5 +9,11 @@
 #import "Target_A.h"
 
 @implementation Target_A
+- (void)push_a:(NSDictionary *)params {
+    
+}
 
+- (void)push_b:(NSDictionary *)params {
+    
+}
 @end

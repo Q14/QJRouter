@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_A : NSObject
-
+- (void)push_a:(NSDictionary *)params;
+- (void)push_b:(NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END
