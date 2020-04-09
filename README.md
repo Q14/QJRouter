@@ -22,7 +22,7 @@ pod 'QJRouter'
 
 ## Author
 
-jz, qiaojinzhu@igengmei.com
+QJ, q98q99@gmail.com
 
 ## License
 
